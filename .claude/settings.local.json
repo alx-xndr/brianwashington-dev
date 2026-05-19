@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(rm \"/Users/alx_xndr_/Documents/Code/Projects/Personal Website/app/api/contact/route.ts\")",
+      "Bash(rmdir \"/Users/alx_xndr_/Documents/Code/Projects/Personal Website/app/api/contact\")",
+      "Bash(rmdir \"/Users/alx_xndr_/Documents/Code/Projects/Personal Website/app/api\")",
+      "Bash(npm install *)",
+      "Bash(node node_modules/next/dist/bin/next build)",
+      "Skill(ui-ux-pro-max)",
+      "Bash(python3 ~/.claude/skills/ui-ux-pro-max/scripts/search.py \"portfolio hero section layout\" --domain landing)",
+      "Skill(superpowers:brainstorming)",
+      "Skill(superpowers:brainstorming:*)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Skill(superpowers:writing-plans)",
+      "Skill(superpowers:writing-plans:*)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('version:', d.get\\('version'\\)\\)\")",
+      "Bash(node node_modules/next/dist/bin/next dev)"
+    ]
+  }
+}
